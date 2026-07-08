@@ -3,7 +3,7 @@ import Reveal from "../components/Reveal";
 import ContactForm from "../components/ContactForm";
 
 export const metadata = {
-  title: "Contact — Tamson Healthcare",
+  title: "Contact, Tamson Healthcare",
   description:
     "Get in touch with Tamson Healthcare to discuss revenue, compliance, operations, or strategy.",
 };
@@ -28,7 +28,7 @@ const contactInfo = [
   },
   {
     label: "Hours",
-    value: "Mon–Fri · 8:00am – 6:00pm ET",
+    value: "Mon-Fri · 8:00am-6:00pm ET",
     icon: Clock,
   },
 ];

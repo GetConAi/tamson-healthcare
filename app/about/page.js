@@ -3,7 +3,7 @@ import Link from "next/link";
 import Reveal from "../components/Reveal";
 
 export const metadata = {
-  title: "About — TAMSON Healthcare Consulting & Staffing Firm",
+  title: "About, TAMSON Healthcare Consulting & Staffing Firm",
   description:
     "Our mission, story, and the leadership behind TAMSON Healthcare Consulting & Staffing Firm.",
 };
@@ -68,7 +68,7 @@ export default function AboutPage() {
             <p className="mt-4 leading-relaxed text-slate-600">
               To strengthen the organizations that care for our communities. We
               believe financially healthy, well-run providers deliver better
-              care — and we exist to make that possible.
+              care, and we exist to make that possible.
             </p>
             <p className="mt-4 leading-relaxed text-slate-600">
               Every recommendation we make is grounded in data, tested against

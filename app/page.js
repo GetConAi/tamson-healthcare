@@ -14,7 +14,7 @@ const WHY_IMG =
 const whyPoints = [
   {
     title: "Healthcare-only focus",
-    body: "We work exclusively with hospitals, clinics, and health systems — no generic playbooks.",
+    body: "We work exclusively with hospitals, clinics, and health systems, no generic playbooks.",
   },
   {
     title: "Outcomes, not slide decks",
@@ -59,7 +59,7 @@ export default function Home() {
           <Reveal delay={0.2}>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-slate-300">
               Tamson Healthcare partners with providers to optimize revenue,
-              navigate compliance, and run more efficient operations — so your
+              navigate compliance, and run more efficient operations, so your
               teams can focus on what matters most: patient care.
             </p>
           </Reveal>

@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Tamson Healthcare — Healthcare Consulting That Delivers",
+  title: "Tamson Healthcare. Healthcare Consulting That Delivers",
   description:
     "Tamson Healthcare helps hospitals, clinics, and health systems improve financial performance, stay compliant, and operate more efficiently.",
 };

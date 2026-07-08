@@ -4,7 +4,7 @@ import Reveal from "../components/Reveal";
 import ServiceCards from "../components/ServiceCards";
 
 export const metadata = {
-  title: "Services — Tamson Healthcare",
+  title: "Services, Tamson Healthcare",
   description:
     "Revenue Cycle Management, Regulatory Compliance, Operational Efficiency, and Strategic Planning for healthcare providers.",
 };
@@ -23,7 +23,7 @@ const PROCESS = [
   {
     step: "03",
     title: "Implement",
-    body: "We work alongside your teams to put changes into practice — not just recommend them.",
+    body: "We work alongside your teams to put changes into practice, not just recommend them.",
   },
   {
     step: "04",
