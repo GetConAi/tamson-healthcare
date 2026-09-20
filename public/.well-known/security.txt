@@ -1,0 +1,9 @@
+# Security contact for this website (see https://securitytxt.org/, RFC 9116).
+# If you believe you have found a security issue, please email us instead of
+# posting it publicly, and include steps to reproduce it. We will reply as
+# soon as we can.
+
+Contact: mailto:tamara@tamsonhealthcareconsulting.com
+Expires: 2027-09-20T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://tamsonhealthcare.com/.well-known/security.txt

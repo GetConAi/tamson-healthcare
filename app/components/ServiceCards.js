@@ -69,7 +69,7 @@ function ServiceCard({ service, index }) {
         )}
       </AnimatePresence>
 
-      <p className="mt-5 text-xs font-medium uppercase tracking-wider text-slate-400">
+      <p className="mt-5 text-xs font-medium uppercase tracking-wider text-slate-500">
         {open ? "Click to collapse" : "Click to learn more"}
       </p>
     </motion.div>

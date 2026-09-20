@@ -8,6 +8,12 @@ const navLinks = [
   { href: "/contact", label: "Contact" },
 ];
 
+const legalLinks = [
+  { href: "/privacy-policy.html", label: "Privacy Policy" },
+  { href: "/terms-of-service.html", label: "Terms of Service" },
+  { href: "/privacy-policy.html#cookies", label: "Cookie Policy" },
+];
+
 const socials = [
   { label: "Facebook", href: "https://www.facebook.com/TAMSON48/" },
 ];
@@ -97,8 +103,20 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-white/10">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-5 py-6 text-xs text-slate-500 sm:flex-row sm:px-8">
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-5 py-6 text-xs text-slate-400 sm:flex-row sm:px-8">
           <p>© {new Date().getFullYear()} Tamson Healthcare. All rights reserved.</p>
+          <ul className="flex flex-wrap items-center justify-center gap-x-5 gap-y-1">
+            {legalLinks.map((link) => (
+              <li key={link.href}>
+                <a
+                  href={link.href}
+                  className="underline underline-offset-2 transition-colors hover:text-accent-light"
+                >
+                  {link.label}
+                </a>
+              </li>
+            ))}
+          </ul>
           <p>Healthcare Consulting · Nationwide</p>
         </div>
       </div>
